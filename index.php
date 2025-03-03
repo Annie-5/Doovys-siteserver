@@ -107,7 +107,7 @@
                         </div>
                         <div class="card-content">
                             <p class="title">Salle de réception</p>
-                            <p class="subtitle">Célébrez vos évènements dans un cadre magnifique</p>
+                            <p class="subtitle">Célébrez vos évènements dans un cadre magni</p>
                             <div class="content">
                                 <a href="prestataires.html" class="button is-primary">Voir plus</a>
                                 <a href="prestataires.html" class="button is-primary">Rendez-vous</a>
