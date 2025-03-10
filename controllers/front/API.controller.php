@@ -37,7 +37,8 @@
                 "description" =>$ligne['description_prestataire'],
                 "dispo" =>$ligne['disponibilite'],
                 "prix" =>$ligne['tarifs'],
-                "image" =>$ligne['logo'],
+                "logo" =>$ligne['logo'],
+                "image" =>$ligne['image'],
 
                 "prestation" => [
                     "id" =>$ligne['id_prestation'],

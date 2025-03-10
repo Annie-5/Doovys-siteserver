@@ -16,14 +16,14 @@
 </head>
 
 <body>
-    <script src="https://unpkg.com/ionicons-7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script src="https://unpkg.com/ionicons-7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- <script src="https://unpkg.com/ionicons-7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script src="https://unpkg.com/ionicons-7.1.0/dist/ionicons/ionicons.js"></script> -->
 
 
     <nav class="navbar is-light">
         <div class="navbar-brand">
             <a class="navbar-item" href="#">
-                <img src="image-site/logo.png">
+                <img src="image-site/logo.png" alt="site logo" style="max-height: 80px" class="py-2">
             </a>
             <span class="navbar-burger burger" data-target="navbarBasicExample">
                 <span></span>
@@ -34,7 +34,7 @@
 
 
 
-        <div id="navbarBasicExample" class="navbar-menu">
+        <div id="navbarBasicExample" class="navbar-menu is-active">
             <div class="navbar-start">
 
                 <!-- A  mettre dans le footer plutôt
@@ -47,159 +47,121 @@
             <!-- Ajout de la barre de recherche -->
             <div class="navbar-end">
                 <div class="navbar-item">
-                    <div class="control has-icons-left">
-                        <input class="input" type="text" placeholder="Trouvez votre prestation">
-                        <span class="icon is-left">
+                    <div class="control has-icons-right">
+                        <input class="input" type="text" placeholder="Recherchez ici ...">
+                        <span class="icon is-right">
                             <i class="fas fa-search"></i>
                         </span>
                     </div>
                 </div>
             </div>
-            <div class="container">
+            <div class="container is has-text-centered">
                 <br>
-                <button class="button is-primary is-outlined">Prochainement</button>
-                <button class="button is-primary is-outlined">S'inscrire</button>
-                <button class="button is-primary is-outlined">Se connecter</button>
+                <button class="button is-primary is-outlined">Mon compte</button>
+                <button class="button is-primary is-outlined">M'inscrire</button>
+                
 
 
             </div>
         </div>
     </nav>
 
-    <!-- Scripte pour le menu burger sur mobile -->
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const burgers = document.querySelectorAll('.navbar-burger');
-            const menu = document.querySelector('#navbarBasicExample');
-            burgers.forEach(burger => {
-                burger.addEventListener('click', () => {
-                    burger.classList.toggle('is-active');
-                    menu.classList.toggle('is-active');
-                });
-            });
-        });
-    </script>
+    <!-- Scripte pour le menu burger sur mobile sur index.js -->
 
+        <!--breadcrumbs -->
+        <div class="section pt-4 pb-0">
+            <nav class="breadcrumb has-bullet-separator">
+                <ul class="container">
+                    <li><a class="has-text-primary">Coups de coeur</a></li>
+                    <li><a class="has-text-primary">Prochainement</a></li>
+                    <li><a class="is-active has-text-primary">Nous rejoindre</a></li>
+                </ul>
+            </nav>
+        </div>
 
-
-
-    <!-- Hero Section -->
+          <!-- Hero Section -->
     <section class="hero is-white">
         <div class="hero-body">
             <div class="container">
-                <h1 class="title is-1 is-spaced">Les meilleurs prestataires de l'évènementiel sont réunis ici</h1>
-                <h2 class="subtitle">Découvrez ces professionnels qui feront de votre évènement un moment magique</h2>
+                <h1 class="is-size-2-mobile is-size-1 desktop title is-1 is-spaced has-text-centered">Les talents de l'évènementiel sont réunis ici</h1>
+                <h2 class="is-size-3-mobile is-size-2 desktop subtitle has-text-grey has-text-centered">Découvrez ces professionnels qui feront de votre évènement un moment magique</h2>
             </div>
         </div>
     </section>
 
-    <!-- Cards Section - Prestataires -->
     <section class="section">
         <div class="container">
-            <div class="columns is-multiline">
-                <!-- Card 1 -->
+            <div class="columns is-vcentered">
                 <div class="column is-4">
-                    <div class="card">
-                        <div class="card-image">
-                            <figure class="image is-4by3">
-                                <img src="assets/images-prestataires/EspaceVenise.png" alt="Salle des fêtes">
-                            </figure>
-                        </div>
-                        <div class="card-content">
-                            <p class="title">Salle de réception</p>
-                            <p class="subtitle">Célébrez vos évènements dans un cadre magni</p>
-                            <div class="content">
-                                <a href="prestataires.html" class="button is-primary">Voir plus</a>
-                                <a href="prestataires.html" class="button is-primary">Rendez-vous</a>
-                                <span class="icon"><ion-icon name="ellipsis-horizontal-outline"></ion-icon>
-
-                                </span>
-
-
-                            </div>
-                        </div>
-                    </div>
+                    <h2 class="is-size-3-mobile is-size-2 desktop subtitle">Décor de rêve</h2>
+                    <img src="assets/images-prestataires/Au Buffet des Mariés.png" alt="Déco">
                 </div>
+                <div class="column is-4">
+                    <h2 class="is-size-3-mobile is-size-2 desktop subtitle">L'instant sublime</h2>
+                    <img src="assets/images-prestataires/La mariée.png" alt="Photo">
+                </div>
+                 <div class="column is-4">
+                    <h2 class="is-size-3-mobile is-size-2 desktop subtitle">Make up parfait</h2>
+                    <img src="assets/images-prestataires/LenaMK4.png" alt="Makeup">
+                </div>
+                <div class="column is-4">
+                    <h2 class="is-size-3-mobile is-size-2 desktop subtitle">La robe de mariée</h2>
+                    <img src="assets/images-prestataires/Robe MarieeDos.png" alt="Robe de mariée">
+                </div>
+                <div class="column is-4">
+                    <h2 class="is-size-3-mobile is-size-2 desktop subtitle">Thèmes décoratifs</h2>
+                    <img src="assets/images-prestataires/IntiE4.png" alt="Déco">
+                </div>
+                <div class="column is-4">
+                    <h2 class="is-size-3-mobile is-size-2 desktop subtitle">Cadre majestueux</h2>
+                    <img src="assets/images-prestataires/espace-Venise.avif" alt="Salle de réception" href="prestataires.php">
+                    
+                </div>
+                <div class="column is-4">
+                    <h2 class="is-size-3-mobile is-size-2 desktop subtitle">L'artiste pâtissier</h2>
+                    <img src="assets/images-prestataires/PièceMontée-Cygne.png" alt="Pâtissier" >
 
-                <!-- Cards Section - Prestataires -->
-                <section class="section">
-                    <div class="container">
-                        <div class="columns is-multiline">
-                            <!-- Card 1 -->
-                            <div class="column is-4">
-                                <div class="card">
-                                    <div class="card-image">
-                                        <figure class="image is-4by3">
-                                            <img src="assets/images-prestataires/MargotDuquesne-photographe.png"
-                                                alt="Photographe">
-                                        </figure>
-                                    </div>
-                                    <div class="card-content">
-                                        <p class="title">Photographe</p>
-                                        <p class="subtitle">Capturez vos instants précieux</p>
-                                        <div class="content">
-                                            <a href="prestataires.html" class="button is-primary">Voir plus</a>
-                                            <a href="prestataires.html" class="button is-primary">Rendez-vous</a>
-                                            <span class="icon"><ion-icon name="ellipsis-horizontal-outline"></ion-icon>
-
-                                            </span>
-
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <section class="section">
-                                <div class="container">
-                                    <div class="columns is-multiline">
-                                        <!-- Card 1 -->
-                                        <div class="column is-4">
-                                            <div class="card">
-                                                <div class="card-image">
-                                                    <figure class="image is-4by3">
-                                                        <img src="assets/images-prestataires/DouniaDaiksMakeup.avif"
-                                                            alt="Make up professionnel">
-                                                    </figure>
-                                                </div>
-                                                <div class="card-content">
-                                                    <p class="title">Make Up Artist</p>
-                                                    <p class="subtitle">Offrez-vous le maquillage parfait</p>
-                                                    <div class="content">
-                                                        <a href="prestataires.html" class="button is-primary">Voir
-                                                            plus</a>
-                                                        <a href="prestataires.html"
-                                                            class="button is-primary">Rendez-vous</a>
-                                                        <span class="icon"><ion-icon
-                                                                name="ellipsis-horizontal-outline"></ion-icon>
-
-                                                        </span>
+                </div>
+                <div class="column is-4">
+                    <h2 class="is-size-3-mobile is-size-2 desktop subtitle">Buffet gourmand</h2>
+                    <img src="assets/images-prestataires/AynaTraiteur4.png" alt="Traiteur">
+                    <a href=""></a></a>
+                </div>
+                 <div class="column is-4">
+                    <h2 class="is-size-3-mobile is-size-2 desktop subtitle">Dégustation fine</h2>
+                    <img src="assets/images-prestataires/Dolia Nova traiteur.png" alt="Traiteur">
+                    <a href=""></a></a>
+                </div>
+                <div class="column is-4">
+                    <h2 class="is-size-3-mobile is-size-2 desktop subtitle">Instants précieux</h2>
+                    <img src="assets/images-prestataires/MargotDuquesne-photographe.png" alt="Photographe">
+                    <a href=""></a></a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
 
 
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <!-- Ajouter d'autres cartes ici... -->
-                                        <!-- Cards Section - Prestataires -->
-
-                                        <!-- Ajouter d'autres cartes ici... -->
 
 
-                                    </div>
-                                </div>
-                            </section>
+  
+
+
 
                             <!-- Footer -->
-                            <footer class="footer">
-                                <a class="navbar-item" href="#">À propos de nous</a>
-                                <a class="navbar-item" href="#">Notre politique</a>
-                                <a class="navbar-item" href="#">Contactez nous</a>
-                                <div class="content has-text-centered">
-                                    <p>&copy; 2025 Tous droits réservés.</p>
-                                </div>
-                            </footer>
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <a class="navbar-item" href="#">À propos de nous</a>
+            <a class="navbar-item" href="#">Notre politique</a>
+            <a class="navbar-item has-text-weight-bold has-text-primary" href="#">Contactez nous</a>
+        </div>
+        <div class="content has-text-weight-bold has-text-centered">
+                <p>&copy; 2025 Tous droits réservés.</p>
+        </div>
+    </footer> 
+    
+    <script src="index.js"></script>
 </body>
 
 </html>
@@ -207,8 +169,11 @@
 
 
 <?php
-// http://localhost/PRESTASERVER/...
-// https://www.doovys.com/...
+$serveurname ="localhost";
+$username = "root";
+$password = "";
+$database ="dbdoovys";
+
 define("URL", str_replace("index.php", "", (isset($_SERVER['HTTPS']) ? "https" : "http") .
     "://$_SERVER[HTTP_HOST]$_SERVER[PHP_SELF]"));
 
@@ -249,7 +214,7 @@ try {
                 echo "page back end demandée";
                 break;
             default:
-                throw new Exception("La page n'existe pas");
+                throw new Exception("La page n'est pas encore présente");
 
         }
 

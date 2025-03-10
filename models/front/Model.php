@@ -7,6 +7,8 @@ abstract class Model {
         self::$pdo = new PDO("mysql:host=localhost;dbname=dbdoovys;charset=utf8","root","");
         self::$pdo->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_WARNING);
     }
+
+    // On utilise protected pour avoir des infos accessibles depuis une class fille pas par des algorithmes tiers
     protected function getBDD(){
         if(self::$pdo === null){
             self::setBdd();
