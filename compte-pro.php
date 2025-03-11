@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <Link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"rel="stylesheet">
   
-    <title>Inscription</title>
+    <title>Création de compte professionnel</title>
 </head>
 <body>
     
@@ -33,10 +33,17 @@
                 </div>
             </div>
 
+             <div class="field">
+             <label class="label">Adresse</label>
+                <div class="control">
+                     <input class="input" type="text" placeholder="Entrez ici votre où vous exercez">
+                </div>
+            </div>
+
             <div class="field">
-                <label class="label">Prestation</label>
+                <label class="label">Téléphone</label>
                     <div class="control has-icons-left has-icons-right">
-                        <input class="input is-success" type="text" placeholder="Votre type de prestation" >
+                        <input class="input is-success" type="text" placeholder="votre numéro de téléphone" >
                         <span class="icon is-small is-left">
                             <i class="fas fa-user"></i>
                         </span>
@@ -44,6 +51,7 @@
                             <i class="fas fa-check"></i>
                         </span>
                     </div>
+                    <p class="help is-success">Ce numéro n'est pas accepté</p>
                     <!-- plutôt un menu déroulant -->
 
                     
@@ -76,7 +84,11 @@
                         </div>
                     </div>
             </div>
-                        <p class="help is-success">Cette prestation n'est pas acceptée</p>
+                      
+            </div>Réseaux sociaux</label>
+                <div class="control">
+                     <input class="input" type="text" placeholder="Liens de vos réseaux">
+                </div>
             </div>
             
 
@@ -102,6 +114,20 @@
                     </div>
             </div>
 
+             <div class="field">
+             <label class="label">Vos Disponibilités</label>
+                <div class="control">
+                     <input class="input" type="text" placeholder="Entrez ici vos disponibilités">
+                </div>
+            </div>
+
+             <div class="field">
+             <label class="label">Tarifs</label>
+                <div class="control">
+                     <input class="input" type="text" placeholder="Entrez ici vos tarifs">
+                </div>
+            </div>
+
             <div class="file">
                 <label class="file-label">
                      <input class="file-input" type="file" name="resume" />
@@ -109,7 +135,7 @@
                     <span class="file-icon">
                         <i class="fas fa-upload"></i>
                     </span>
-                    <span class="file-label"> Impotez votre logo… </span>
+                    <span class="file-label"> Votre logo </span>
                 </span>
                 </label>
             </div>
@@ -121,9 +147,9 @@
                     <span class="file-icon">
                         <i class="fas fa-upload"></i>
                     </span>
-                    <span class="file-label">Importez vos photos… </span>
+                    <span class="file-label"> Diffusez votre talent </span>
                     </span>
-                    <span class="file-name">Votre art en photo.png </span>
+                    <span class="file-name"> Votre art en photo.png </span>
                 </label>
             </div>
 

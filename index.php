@@ -16,9 +16,9 @@
 </head>
 
 <body>
-    <!-- <script src="https://unpkg.com/ionicons-7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script src="https://unpkg.com/ionicons-7.1.0/dist/ionicons/ionicons.js"></script> -->
-
+  
+<!-- <script src="https://unpkg.com/ionicons-7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script src="https://unpkg.com/ionicons-7.1.0/dist/ionicons/ionicons.js"></script> -->
 
     <nav class="navbar is-light">
         <div class="navbar-brand">
@@ -72,9 +72,9 @@
         <div class="section pt-4 pb-0">
             <nav class="breadcrumb has-bullet-separator">
                 <ul class="container">
-                    <li><a class="has-text-primary">Coups de coeur</a></li>
-                    <li><a class="has-text-primary">Prochainement</a></li>
-                    <li><a class="is-active has-text-primary">Nous rejoindre</a></li>
+                    <li><a class="has-text-primary"href="favoris.php">Coups de coeur</a></li>
+                    <li><a class="has-text-primary"href="events.php">Prochainement</a></li>
+                    <li><a class="is-active has-text-primary" href="form.php">Nous rejoindre</a></li>
                 </ul>
             </nav>
         </div>
@@ -88,7 +88,7 @@
             </div>
         </div>
     </section>
-
+<!-- créer les liens vers les cards de chaque image vers son propriétaire -->
     <section class="section">
         <div class="container">
             <div class="columns is-vcentered">
@@ -143,21 +143,16 @@
     </section>
 
 
-
-
-  
-
-
-
                             <!-- Footer -->
     <footer class="footer">
         <div class="content has-text-centered">
-            <a class="navbar-item" href="#">À propos de nous</a>
-            <a class="navbar-item" href="#">Notre politique</a>
-            <a class="navbar-item has-text-weight-bold has-text-primary" href="#">Contactez nous</a>
+            <a class="navbar-item" href="aboutus.php">À propos de nous</a>
+            <a class="navbar-item" href="politique.php">Notre politique</a>
+            <a class="navbar-item has-text-weight-bold has-text-primary" href="contact.php">Contactez nous</a>
         </div>
-        <div class="content has-text-weight-bold has-text-centered">
+        <div class="content has-text-weight-bold has-text-centered" href="juridique.php">
                 <p>&copy; 2025 Tous droits réservés.</p>
+                <!-- <a href="juridique.php">Termes juridiques</a> -->
         </div>
     </footer> 
     
