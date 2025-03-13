@@ -43,7 +43,7 @@
                     <p class="help is-danger">Cet email n'est pas valide</p>
             </div>
 
-            <div class="field">
+            <!-- <div class="field">
                 <label class="label">S'agit il d'une demande concernant :</label>
                     <div class="control">
                         <div class="select">
@@ -52,7 +52,7 @@
                             <option>Nos évènements</option>
                         </select>
                     </div>
-            </div>
+            </div> -->
 
             <div class="field">
                 <label class="label">Votre Message</label>

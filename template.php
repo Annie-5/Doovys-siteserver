@@ -50,11 +50,11 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="container is has-text-centered">
+            <div class="container is has-text-centered">
                 <br>
                 <button class="button is-primary is-outlined">Mon compte</button>
                 <button class="button is-primary is-outlined">M'inscrire</button>
-            </div> -->
+            </div>
 
                 <!--breadcrumbs -->
         <div class="section pt-4 pb-0">

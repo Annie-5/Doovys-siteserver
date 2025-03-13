@@ -10,6 +10,7 @@
     <link rel="shortcut icon" href="image-site/favicon.ico">
     <Link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
+    
 
 
 
@@ -57,8 +58,8 @@
             </div>
             <div class="container is has-text-centered">
                 <br>
-                <button class="button is-primary is-outlined">Mon compte</button>
-                <button class="button is-primary is-outlined">M'inscrire</button>
+                <button class="button is-primary is-outlined" href="connect.php">Mon compte</button>
+                <button class="button is-primary is-outlined" href="compte-pro.php">M'inscrire</button>
                 
 
 
@@ -98,7 +99,7 @@
                 </div>
                 <div class="column is-4">
                     <h2 class="is-size-3-mobile is-size-2 desktop subtitle">L'instant sublime</h2>
-                    <img src="assets/images-prestataires/La mariée.png" alt="Photo">
+                    <img src="assets/images-prestataires/La mariée - portrait.png" alt="Photo">
                 </div>
                  <div class="column is-4">
                     <h2 class="is-size-3-mobile is-size-2 desktop subtitle">Make up parfait</h2>
@@ -114,7 +115,7 @@
                 </div>
                 <div class="column is-4">
                     <h2 class="is-size-3-mobile is-size-2 desktop subtitle">Cadre majestueux</h2>
-                    <img src="assets/images-prestataires/espace-Venise.avif" alt="Salle de réception" href="prestataires.php">
+                    <img src="assets/images-prestataires/décor-table1.png" alt="Salle de réception" href="prestataires.php">
                     
                 </div>
                 <div class="column is-4">
@@ -134,9 +135,17 @@
                 </div>
                 <div class="column is-4">
                     <h2 class="is-size-3-mobile is-size-2 desktop subtitle">Instants précieux</h2>
-                    <img src="assets/images-prestataires/MargotDuquesne-photographe.png" alt="Photographe">
+                    <img src="assets/images-prestataires/MargotD.png" alt="Photographe">
                     <a href=""></a></a>
                 </div>
+                <div class="container is has-text-centered">
+                    <div class="btn">
+                        <img src="chevron-up-solid.svg" class="fas fa-chevron-up fa-lg" style="color: #40fbff">
+                    </div>
+                     
+                </div>
+                    
+                
                 
             </div>
         </div>
@@ -157,9 +166,11 @@
     </footer> 
     
     <script src="index.js"></script>
+
+  
 </body>
 
-</html>
+</html> 
 
 
 

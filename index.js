@@ -10,7 +10,17 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
-<p>
+
+const btn = document.querySelector(".btn");
+
+btn.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: "smooth",
+  });
+});
+/* <p>
   <ul>
     <li>
       <a href="index.php">Home</a>
@@ -52,7 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
   <li>
     <a href="notspend.php">Retour à l'accueil</a>
   </li>
-</p>;
+</p>; */
 
 // <?php ob_start() ?>
 

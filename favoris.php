@@ -28,8 +28,8 @@
 
                 </div>
                 <div class="column is-4">
-                    <h2 class="is-size-3-mobile is-size-2 desktop subtitle">Buffet gourmand</h2>
-                    <img src="assets/images-prestataires/Ayna Traiteur1.png" alt="Traiteur">
+                    <h2 class="is-size-3-mobile is-size-2 desktop subtitle">Fines bouchées</h2>
+                    <img src="assets/images-prestataires/DNova-Traiteur.png" alt="Traiteur">
                     <a href=""></a></a>
                     <!-- créer les liens vers les cards de chaque image vers son propriétaire -->
                 </div>
