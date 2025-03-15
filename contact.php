@@ -1,7 +1,7 @@
 
 <?php ob_start() ?>
 
-        <form action="/iscription" method="post" class="section">
+        <form action="/inscription" method="post" class="section">
            <div class="field">
                 <label class="label">Nom*</label>
                     <div class="control has-icons-left has-icons-right">
@@ -43,7 +43,7 @@
                     <p class="help is-danger">Cet email n'est pas valide</p>
             </div>
 
-            <!-- <div class="field">
+            <div class="field">
                 <label class="label">S'agit il d'une demande concernant :</label>
                     <div class="control">
                         <div class="select">
@@ -52,7 +52,7 @@
                             <option>Nos évènements</option>
                         </select>
                     </div>
-            </div> -->
+            </div>
 
             <div class="field">
                 <label class="label">Votre Message</label>

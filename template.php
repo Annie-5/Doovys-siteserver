@@ -69,13 +69,18 @@
         </div>
         </div>
     </nav>
-    <script src="index.js"></script>
 
     
     <?= $content ?>
-    
+        
+         <div class="container is has-text-centered">
+            <div class="btn">
+                    <img src="chevron-up-solid.svg" class="fas fa-chevron-up fa-lg" style="color: #40fbff">
+            </div>
+                     
+        </div>
                         <!-- Footer -->
-         <footer class="footer">
+    <footer class="footer">
         <div class="content has-text-centered">
             <a class="navbar-item" href="aboutus.php">À propos de nous</a>
             <a class="navbar-item" href="politique.php">Notre politique</a>
@@ -86,6 +91,7 @@
                 <!-- <a href="juridique.php">Termes juridiques</a> -->
         </div>
     </footer> 
+     <script src="index.js"></script>
 </body>
 
 </html>

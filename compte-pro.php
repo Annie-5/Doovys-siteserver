@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <Link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"rel="stylesheet">
   
-    <title>Création de compte professionnel</title>
+    <title>Création de mon compte professionnel</title>
 </head>
 <body>
     
@@ -17,33 +17,32 @@
     <div class="hero-body">
       <div class="container">
         <h1 class="is-size-2-mobile is-size-1 desktop title is-1 is-spaced has-text-centered">
-         Vous êtes prestataire
+         Vous rejoignez notre équipe de professionels
         </h1>
         <h2 class="is-size-3-mobile is-size-2 desktop subtitle has-text-grey has-text-centered">
-         Rejoignez notre équipe
         </h2>
       </div>
     </div>
   </section>
         <form>
             <div class="field">
-             <label class="label">Nom de votre marque</label>
+             <label class="label">Nom de votre marque*</label>
                 <div class="control">
-                     <input class="input" type="text" placeholder="Entrez ici votre marque">
+                     <input class="input" type="text" placeholder="Entrez ici votre marque..."required>
                 </div>
             </div>
 
              <div class="field">
-             <label class="label">Adresse</label>
+             <label class="label">Adresse*</label>
                 <div class="control">
-                     <input class="input" type="text" placeholder="Entrez ici votre où vous exercez">
+                     <input class="input" type="text" placeholder="Entrez ici votre où vous exercez..."required>
                 </div>
             </div>
 
             <div class="field">
-                <label class="label">Téléphone</label>
+                <label class="label">Téléphone*</label>
                     <div class="control has-icons-left has-icons-right">
-                        <input class="input is-success" type="text" placeholder="votre numéro de téléphone" >
+                        <input class="input is-success" type="text" placeholder="Votre numéro de téléphone..." required>
                         <span class="icon is-small is-left">
                             <i class="fas fa-user"></i>
                         </span>
@@ -56,9 +55,9 @@
 
                     
             <div class="field">
-                <label class="label">Domaine d'activité</label>
+                <label class="label">Domaine d'activité*</label>
                     <div class="control">
-                        <div class="select">
+                        <div class="select" placeholder="Selectinnez votre domaine..." required>
                             <select>
                                 <option>Lieux de cérémonie</option>
                                 <option>Salle de Réception</option>
@@ -85,17 +84,17 @@
                     </div>
             </div>
                       
-            </div>Réseaux sociaux</label>
+            </div>Réseaux sociaux*</label>
                 <div class="control">
-                     <input class="input" type="text" placeholder="Liens de vos réseaux">
+                     <input class="input" type="text" placeholder="Liens de vos réseaux..."required>
                 </div>
             </div>
             
 
             <div class="field">
-                <label class="label">Email</label>
+                <label class="label">Email*</label>
                     <div class="control has-icons-left has-icons-right">
-                        <input class="input is-danger" type="email" placeholder="Entrez ici votre Email">
+                        <input class="input is-danger" type="email" placeholder="Entrez ici votre Email..."required>
                         <span class="icon is-small is-left">
                             <i class="fas fa-envelope"></i>
                         </span>
@@ -108,23 +107,23 @@
 
 
             <div class="field">
-                <label class="label">Votre message</label>
+                <label class="label">Présentation*</label>
                     <div class="control">
-                        <textarea class="textarea" placeholder="Decrivez de votre activité"></textarea>
+                        <textarea class="textarea" placeholder="Decrivez de votre activité..."required></textarea>
                     </div>
             </div>
 
              <div class="field">
-             <label class="label">Vos Disponibilités</label>
+             <label class="label">Vos Disponibilités*</label>
                 <div class="control">
-                     <input class="input" type="text" placeholder="Entrez ici vos disponibilités">
+                     <input class="input" type="text" placeholder="Entrez ici vos disponibilités..."required>
                 </div>
             </div>
 
              <div class="field">
-             <label class="label">Tarifs</label>
+             <label class="label">Tarifs*</label>
                 <div class="control">
-                     <input class="input" type="text" placeholder="Entrez ici vos tarifs">
+                     <input class="input" type="text" placeholder="Entrez ici vos tarifs..."required>
                 </div>
             </div>
 
@@ -135,7 +134,7 @@
                     <span class="file-icon">
                         <i class="fas fa-upload"></i>
                     </span>
-                    <span class="file-label"> Votre logo </span>
+                    <span class="file-label"> Votre logo* </span>
                 </span>
                 </label>
             </div>
@@ -147,17 +146,17 @@
                     <span class="file-icon">
                         <i class="fas fa-upload"></i>
                     </span>
-                    <span class="file-label"> Diffusez votre talent </span>
+                    <span class="file-label"> Partagez votre talent* </span>
                     </span>
-                    <span class="file-name"> Votre art en photo.png </span>
+                    <span class="file-name"> Votre art en photo.png* </span>
                 </label>
             </div>
 
             <div class="field">
                 <div class="control">
                     <label class="checkbox">
-                        <input type="checkbox">
-                        J'accepte les conditions<a href="#"> Termes et conditions</a>
+                        <input type="checkbox"required>
+                        J'accepte les conditions*<a href="juridique.php"> Termes et conditions</a>
                     </label>
                 </div>
             </div>
@@ -177,7 +176,7 @@
 
             <div class="field is-grouped has-text-right">
                 <div class="control has-text-right">
-                    <button class="button is-primary is-link">Valider</button>
+                    <button class="button is-primary is-primary">Valider</button>
                 </div>
                 <div class="control">
                     <button class="button is-primary is-link is-light">Annuler</button>

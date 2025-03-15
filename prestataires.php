@@ -58,7 +58,7 @@ catch(PDOException $e){
           Nos prestataires
         </h1>
         <h2 class="is-size-3-mobile is-size-2 desktop subtitle has-text-grey has-text-centered">
-          Ces professionnels mettent à votre disposition leurs talents
+          Ces professionnels mettent tous leurs talents à votre disposition 
         </h2>
       </div>
     </div>
@@ -85,7 +85,7 @@ catch(PDOException $e){
                         </div>
                         <div class="card-content">
                             <p class="title">Salle de réception</p>
-                            <p class="subtitle has-text-grey">Célébrez vos évènements dans le cadre de vos rêves</p>
+                            <p class="subtitle has-text-grey">Célébrez vos événements dans le cadre de vos rêves</p>
                             <div class="content">
                                 <a href="prestataires.php" class="button is-primary has-icons-right">Voir plus</a>
                                 <a href="prestataires.php" class="button is-primary has-icons-right">Rendez-vous</a>

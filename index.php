@@ -59,7 +59,9 @@
             <div class="container is has-text-centered">
                 <br>
                 <button class="button is-primary is-outlined" href="connect.php">Mon compte</button>
+                    <a href="connect.php"></a>
                 <button class="button is-primary is-outlined" href="compte-pro.php">M'inscrire</button>
+                <a href="compte-pro.php"></a>
                 
 
 
@@ -75,7 +77,7 @@
                 <ul class="container">
                     <li><a class="has-text-primary"href="favoris.php">Coups de coeur</a></li>
                     <li><a class="has-text-primary"href="events.php">Prochainement</a></li>
-                    <li><a class="is-active has-text-primary" href="form.php">Nous rejoindre</a></li>
+                    <li><a class="is-active has-text-primary" href="evform.php">Publication/a></li>
                 </ul>
             </nav>
         </div>
@@ -84,8 +86,8 @@
     <section class="hero is-white">
         <div class="hero-body">
             <div class="container">
-                <h1 class="is-size-2-mobile is-size-1 desktop title is-1 is-spaced has-text-centered">Les talents de l'évènementiel sont réunis ici</h1>
-                <h2 class="is-size-3-mobile is-size-2 desktop subtitle has-text-grey has-text-centered">Découvrez ces professionnels qui feront de votre évènement un moment magique</h2>
+                <h1 class="is-size-2-mobile is-size-1 desktop title is-1 is-spaced has-text-centered">Les talents de l'événementiel sont réunis ici</h1>
+                <h2 class="is-size-3-mobile is-size-2 desktop subtitle has-text-grey has-text-centered">Découvrez ces professionnels qui feront de votre événement un moment magique</h2>
             </div>
         </div>
     </section>

@@ -9,9 +9,8 @@
 
  <div class="field">
                     <p class="control">
-                        <button class="button is-link" type="submit" href="index.php">
-                        Retour à l'acceuil
-                        </button>
+                        <button class="button is-primary is-centered " type="submit" >
+                             <a href="index.php" class="button is-primary has-icons-right">Retour à l'acceuil</a>
                     </p>
                </div>
 
