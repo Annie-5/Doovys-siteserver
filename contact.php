@@ -5,7 +5,7 @@
            <div class="field">
                 <label class="label">Nom*</label>
                     <div class="control has-icons-left has-icons-right">
-                        <input class="input is-success" type="text" placeholder="Mon nom est:">
+                        <input class="input is-success" type="text" placeholder="Votre nom ..."required>
                             <span class="icon is-small is-left">
                                 <i class="fas fa-user"></i>
                             </span>
@@ -18,7 +18,7 @@
             <div class="field">
                 <label class="label">Prénom*</label>
                      <div class="control has-icons-left has-icons-right">
-                        <input class="input is-success" type="text" placeholder="Mon prénom est:">
+                        <input class="input is-success" type="text" placeholder="Votre prénom ..."required>
                             <span class="icon is-small is-left">
                                 <i class="fas fa-user"></i>
                             </span>
@@ -32,7 +32,7 @@
             <div class="field">
                 <label class="label">Email*</label>
                     <div class="control has-icons-left has-icons-right">
-                        <input class="input is-danger" type="email" placeholder="Mon email est:">
+                        <input class="input is-danger" type="email" placeholder="Votre email ..."required>
                             <span class="icon is-small is-left">
                                 <i class="fas fa-envelope"></i>
                             </span>
@@ -49,7 +49,7 @@
                         <div class="select">
                         <select>
                             <option>Nos prestataires</option>
-                            <option>Nos évènements</option>
+                            <option>Nos événements</option>
                         </select>
                     </div>
             </div>
