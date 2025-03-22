@@ -11,7 +11,7 @@
 
 <body>
     
-   <form action="/inscription" method="post" class="section">
+  <form action="traitement.php" method="post" class="section" id="evForm">
         <section class="hero is-white">
             <div class="hero-body">
                 <div class="container">
@@ -114,9 +114,10 @@
                 </div>
         </section>
     </form>
+    
       
 
-
+<script src="https://kit.fontawesome.com/006f782adc.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

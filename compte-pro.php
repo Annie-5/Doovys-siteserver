@@ -26,7 +26,7 @@
             </div>
             </div>
         </section>
-    <form action="/inscription" method="post" class="section">
+    <form action="traitement.php" method="post" class="section" id="proForm">
         <div class="field">
                     <div class="field">
                     <label class="label">Nom de votre marque*</label>
@@ -186,6 +186,8 @@
                         </div>
                     </div>
     </form>
+    <script src="https://kit.fontawesome.com/006f782adc.js" crossorigin="anonymous"></script>
+   
 
 </body>
 </html>

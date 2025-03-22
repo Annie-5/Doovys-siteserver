@@ -35,4 +35,5 @@ if(isset($_POST['ok'])){
     $reponse = $requete->fetchAll(PDO::FETCH_ASSOC);
     var_dump($reponse);
 }
+echo'traitement'
 ?>

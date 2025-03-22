@@ -10,15 +10,14 @@
     <link rel="shortcut icon" href="image-site/favicon.ico">
     <Link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
+    
 
 
 
 </head>
 
 <body>
-    <!-- <script src="https://unpkg.com/ionicons-7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script src="https://unpkg.com/ionicons-7.1.0/dist/ionicons/ionicons.js"></script> -->
-
+    
 
     <nav class="navbar is-light">
         <div class="navbar-brand">
@@ -61,9 +60,9 @@
             <nav class="breadcrumb has-bullet-separator">
                 <ul class="container">
                     <li><a class="has-text-primary" href="index.php">Accueil</a></li>
-                    <li><a class="has-text-primary" href="prestataires.php">Coups de coeur</a></li>
-                    <li><a class="has-text-primary" href="events.php">Prochainement</a></li>
-                    <li><a class="is-active has-text-primary" href="form.php">Nous rejoindre</a></li>
+                    <li><a class="has-text-primary" href="prestataires.php">Nos prestataires</a></li>
+                    <li><a class="has-text-primary"href="evform.php">Publication</a></li>
+                    <!-- <li><a class="is-active has-text-primary" href="compte-pro.php">Rejoignez nous</li> -->
                 </ul>
             </nav>
         </div>
@@ -92,6 +91,7 @@
         </div>
     </footer> 
      <script src="index.js"></script>
+     <script src="https://kit.fontawesome.com/006f782adc.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

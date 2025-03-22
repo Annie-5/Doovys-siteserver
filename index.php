@@ -11,15 +11,13 @@
     <Link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
     
+    
 
 
 
 </head>
 
 <body>
-  
-<!-- <script src="https://unpkg.com/ionicons-7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script src="https://unpkg.com/ionicons-7.1.0/dist/ionicons/ionicons.js"></script> -->
 
     <nav class="navbar is-light">
         <div class="navbar-brand">
@@ -58,29 +56,35 @@
             </div>
             <div class="container is has-text-centered">
                 <br>
-                <button class="button is-primary is-outlined" href="connect.php">Mon compte</button>
+                <button class="button  is-active is-primary is-outlined" href="connect.php">Mon compte</button>
                     <a href="connect.php"></a>
-                <button class="button is-primary is-outlined" href="compte-pro.php">M'inscrire</button>
-                <a href="compte-pro.php"></a>
+                <button class="button is-active is-primary is-outlined" href="compte-pro.php">M'inscrire</button>
+                <!-- <a href="compte-pro.php"></a> -->
                 
 
 
             </div>
-        </div>
+        
+            <!-- Scripte pour le menu burger sur mobile sur index.js -->
+
+                <!--breadcrumbs -->
+            <div class="section pt-4 pb-0">
+                <nav class="breadcrumb has-bullet-separator">
+                    <ul class="container">
+                        <li><a class="has-text-primary"href="favoris.php">Coups de coeur</a></li>
+                        <li><a class="has-text-primary"href="events.php">A venir</a></li>
+                        <li><a class="has-text-primary"href="evform.php">Publication</a></li>
+                        <!-- <li><a class="has-text-primary" href="compte-pro.php">Vous avez un talent</li> -->
+                        <!-- <li><a class="is-active has-text-primary" href="compte-pro.php">Rejoignez nous</li> -->
+                    </ul>
+                
+            </div>
+         </div>
+        
     </nav>
 
-    <!-- Scripte pour le menu burger sur mobile sur index.js -->
-
-        <!--breadcrumbs -->
-        <div class="section pt-4 pb-0">
-            <nav class="breadcrumb has-bullet-separator">
-                <ul class="container">
-                    <li><a class="has-text-primary"href="favoris.php">Coups de coeur</a></li>
-                    <li><a class="has-text-primary"href="events.php">Prochainement</a></li>
-                    <li><a class="is-active has-text-primary" href="evform.php">Publication/a></li>
-                </ul>
-            </nav>
-        </div>
+    
+    
 
           <!-- Hero Section -->
     <section class="hero is-white">
@@ -98,14 +102,17 @@
                 <div class="column is-4">
                     <h2 class="is-size-3-mobile is-size-2 desktop subtitle">Décor de rêve</h2>
                     <img src="assets/images-prestataires/Au Buffet des Mariés.png" alt="Déco">
+                    <a href=""></a>
                 </div>
                 <div class="column is-4">
                     <h2 class="is-size-3-mobile is-size-2 desktop subtitle">L'instant sublime</h2>
                     <img src="assets/images-prestataires/La mariée - portrait.png" alt="Photo">
+                    <a href=""></a>
                 </div>
                  <div class="column is-4">
                     <h2 class="is-size-3-mobile is-size-2 desktop subtitle">Make up parfait</h2>
                     <img src="assets/images-prestataires/LenaMK4.png" alt="Makeup">
+                    <a href=""></a>
                 </div>
                 <div class="column is-4">
                     <h2 class="is-size-3-mobile is-size-2 desktop subtitle">La robe de mariée</h2>
@@ -114,31 +121,33 @@
                 <div class="column is-4">
                     <h2 class="is-size-3-mobile is-size-2 desktop subtitle">Thèmes décoratifs</h2>
                     <img src="assets/images-prestataires/IntiE4.png" alt="Déco">
+                    <a href=""></a>
                 </div>
                 <div class="column is-4">
                     <h2 class="is-size-3-mobile is-size-2 desktop subtitle">Cadre majestueux</h2>
-                    <img src="assets/images-prestataires/décor-table1.png" alt="Salle de réception" href="prestataires.php">
+                    <img src="assets/images-prestataires/décor-table1.png" alt="Salle de réception" href="">
                     
                 </div>
                 <div class="column is-4">
                     <h2 class="is-size-3-mobile is-size-2 desktop subtitle">L'artiste pâtissier</h2>
                     <img src="assets/images-prestataires/PièceMontée-Cygne.png" alt="Pâtissier" >
+                    <a href=""></a>
 
                 </div>
                 <div class="column is-4">
                     <h2 class="is-size-3-mobile is-size-2 desktop subtitle">Buffet gourmand</h2>
                     <img src="assets/images-prestataires/AynaTraiteur4.png" alt="Traiteur">
-                    <a href=""></a></a>
+                    <a href=""></a>
                 </div>
                  <div class="column is-4">
                     <h2 class="is-size-3-mobile is-size-2 desktop subtitle">Dégustation fine</h2>
                     <img src="assets/images-prestataires/Dolia Nova traiteur.png" alt="Traiteur">
-                    <a href=""></a></a>
+                    <a href=""></a>
                 </div>
                 <div class="column is-4">
                     <h2 class="is-size-3-mobile is-size-2 desktop subtitle">Instants précieux</h2>
                     <img src="assets/images-prestataires/MargotD.png" alt="Photographe">
-                    <a href=""></a></a>
+                    <a href=""></a>
                 </div>
                 <div class="container is has-text-centered">
                     <div class="btn">
@@ -165,9 +174,12 @@
                 <p>&copy; 2025 Tous droits réservés.</p>
                 <!-- <a href="juridique.php">Termes juridiques</a> -->
         </div>
-    </footer> 
+    </footer>
+    
+   
     
     <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/006f782adc.js" crossorigin="anonymous"></script>
 
   
 </body>

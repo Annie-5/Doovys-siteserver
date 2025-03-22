@@ -89,20 +89,91 @@ catch(PDOException $e){
                             <div class="content">
                                 <a href="prestataires.php" class="button is-primary has-icons-right">Voir plus</a>
                                 <a href="prestataires.php" class="button is-primary has-icons-right">Rendez-vous</a>
-                            </div>
+                                <a href="prestataires.php" class="button is-primary has-icons-right">Contacter</a>
                         </div>
                     </div>
                 </div>
+            </div>
+    </section> 
+    <section class="section">
+            <div class="columns is-multiline">
+                <!-- Card 1 -->
+                <div class="column is-4">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="assets/images-prestataires/locationVoiture.png" alt="Cortège">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title">Le cortège</p>
+                            <p class="subtitle has-text-grey">Votre prestigieuse balade</p>
+                            <div class="content">
+                                <a href="prestataires.php" class="button is-primary has-icons-right">Voir plus</a>
+                                <a href="prestataires.php" class="button is-primary has-icons-right">Rendez-vous</a>
+                                <a href="prestataires.php" class="button is-primary has-icons-right">Contacter</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
 
-                <!-- Cards Section - Prestataires -->
+    <section class="section">
+
+            <div class="columns is-multiline">
+                <!-- Card 1 -->
+                <div class="column is-4">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="assets/images-prestataires/lesMaries.png" alt="Photographe">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title">Photographe</p>
+                            <p class="subtitle has-text-grey">Capturez vos instants précieux</p>
+                            <div class="content">
+                                <a href="prestataires.php" class="button is-primary has-icons-right">Voir plus</a>
+                                <a href="prestataires.php" class="button is-primary has-icons-right">Rendez-vous</a>
+                                <a href="prestataires.php" class="button is-primary has-icons-right">Contacter</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="section">
+            <div class="columns is-multiline">
+                <!-- Card 1 -->
+                <div class="column is-4">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="assets/images-prestataires/PièceMontée-Cygne.png" alt="Artiste pâtissier">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title">Artiste pâtissier</p>
+                            <p class="subtitle has-text-grey">Les délicieuses créations</p>
+                            <div class="content">
+                                <a href="prestataires.php" class="button is-primary has-icons-right">Voir plus</a>
+                                <a href="prestataires.php" class="button is-primary has-icons-right">Rendez-vous</a>
+                                <a href="prestataires.php" class="button is-primary has-icons-right">Contacter</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    
+
+                <!-- Cards Section - Prestataires
     <section class="section">
         <div class="columns is-multiline">
-            <!-- Card 1 -->
-            <div class="column is-4">
+            Card 1 -->
+            <!-- <div class="column is-4">
                 <div class="card">
                     <div class="card-image">
-                        <figure class="image is-4by3">
-                            <img src="assets/images-prestataires/MargotDuquesne-photographe.png" alt="Photographe">
+                        <figure class="image is-4by3"> -->
+                            <!-- <img src="assets/images-prestataires/MargotD2.png" alt="Photographe">
                         </figure>
                     </div>
                     <div class="card-content">
@@ -118,13 +189,13 @@ catch(PDOException $e){
             </div>
         </div>
     <section class="section">
-        <div class="columns is-multiline">
+        <div class="columns is-multiline"> -->
             <!-- Card 1 -->
-                <div class="column is-4">
+                <!-- <div class="column is-4">
                     <div class="card">
                         <div class="card-image">
                             <figure class="image is-4by3">
-                                <img src="assets/images-prestataires/DouniaDaiksMakeup.avif" alt="Make up professionnel">
+                                <img src="assets/images-prestataires/LenaMK3png.png" alt="Make up professionnel">
                             </figure>                                        
                         </div>
                         <div class="card-content">
@@ -141,7 +212,7 @@ catch(PDOException $e){
             </div> 
         </div>                                                                   
     </section> 
-    
+     -->
     <section>
         <div class="modal">
             <div class="modal-background"></div>

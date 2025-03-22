@@ -99,7 +99,11 @@
                 </div>
         </section>
     </form>
+    <script src="https://kit.fontawesome.com/006f782adc.js" crossorigin="anonymous"></script>
 </body>
+
+ <!-- <script src="https://unpkg.com/ionicons-7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script src="https://unpkg.com/ionicons-7.1.0/dist/ionicons/ionicons.js"></script> -->
 
 
 

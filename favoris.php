@@ -9,7 +9,7 @@
                 <h1 class="is-size-2-mobile is-size-1 desktop title is-1 is-spaced has-text-centered">
                     Nos coups de coeurs du moment</h1>
                 <h2 class="is-size-3-mobile is-size-2 desktop subtitle has-text-grey has-text-centered">
-                    Découvrez ces professionnels qui feront de votre évènement un  merveilleux moment</h2>
+                    Découvrez ces professionnels qui feront de votre événement un  merveilleux moment</h2>
             </div>
         </div>
     </section>
@@ -19,7 +19,7 @@
             <div class="columns is-vcentered">
                  <div class="column is-4">
                     <h2 class="is-size-3-mobile is-size-2 desktop subtitle">Cadre majestueux</h2>
-                    <img src="assets/images-prestataires/EspaceVenise.png" alt="Salle de réception" href="prestataires.php">
+                    <img src="assets/images-prestataires/espace-Venise.png" alt="Salle de réception" href="prestataires.php">
                     
                 </div>
                 <div class="column is-4">

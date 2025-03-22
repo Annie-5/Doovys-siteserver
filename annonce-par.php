@@ -12,7 +12,7 @@
     <title>Inscription</title>
 </head>
 <body>
-  <form action="/inscription" method="post" class="section">
+  <form action="traitement.php" method="post" class="section" id="anForm">
            <div class="field">
                 <section class="hero is-white">
                     <div class="hero-body">
@@ -21,7 +21,7 @@
                         Vous préparez un heureux événement
                         </h1>
                         <h2 class="is-size-3-mobile is-size-2 desktop subtitle has-text-grey has-text-centered">
-                        Trouvez parmis nos prestestataires, les artisants de votre bohneur
+                        Trouvez parmi nos prestataires, les artisants de votre bohneur
                         </h2>
                     </div>
                     </div>
@@ -30,20 +30,30 @@
                             <div class="field">
                             <label class="label">Nom*</label>
                                 <div class="control">
-                                    <input class="input" type="text" placeholder="Entrez ici votre nom" required>
+                                    <input class="input is-success" type="text" placeholder="Entrez ici votre nom" required>
+                                    <span class="icon is-small is-left">
+                                        <ion-icon name=""></ion-icon>
+                                    </span>    
+                                    <span class="icon is-small is-right">
+                                        <ion-icon name=""></ion-icon>
+                                    </span>
+                                    <span id="error"></span>
+                                    <!-- <p class="help is-success">Ce nom est valide</p> -->
                                 </div>
                             </div>
 
                             <div class="field">
                                 <label class="label">Prénom*</label>
-                                    <div class="control has-icons-left has-icons-right">
+                                    <div class="control">
                                         <input class="input is-success" type="text" placeholder="Entrez ici votre prénom" required >
                                         <span class="icon is-small is-left">
-                                            <i class="fas fa-user"></i>
-                                        </span>
-                                        <span class="icon is-small is-right">
-                                            <i class="fas fa-check"></i>
-                                        </span>
+                                        <ion-icon name="contact"></ion-icon>
+                                    </span>    
+                                    <span class="icon is-small is-right">
+                                        <ion-icon name="checkmark"></ion-icon>
+                                    </span>
+                                    <span id="error"></span>
+                                    <!-- <p class="help is-success">Ce prénom est valide</p> -->
                                     </div>
                                         
                             </div>
@@ -62,7 +72,7 @@
                                         <p class="help is-danger">Cette adresse mail n'est pas valide</p>
                             </div>
 
-                            <div class="field">
+                            <!-- <div class="field">
                                 <label class="label">Téléphone*</label>
                                     <div class="control has-icons-left has-icons-right">
                                         <input class="input is-danger" type="email" placeholder="Entrez ici votre numéro de téléphone" required>
@@ -75,8 +85,8 @@
                                     </div>
                                         <p class="help is-danger">Ce numéro de téléphone n'est pas valide</p>
                             </div>
-                <!-- 
-                            <div class="field">
+                 -->
+                            <!-- <div class="field">
                                 <label class="label">Subject</label>
                                     <div class="control">
                                         <div class="select">
@@ -86,7 +96,7 @@
                                             </select>
                                         </div>
                                     </div>
-                            </div> -->
+                            </div>  -->
 
                             <div class="field">
                                 <label class="label">Votre événement*</label>
@@ -119,13 +129,40 @@
 
                             <div class="field is-grouped has-text-right">
                                 <div class="control has-text-right">
-                                    <button class="button is-primary is-link">Valider</button>
+                                    <button class="button is-primary  is-link" type="submit">Valider</button>
                                 </div>
                                 <div class="control">
                                     <button class="button is-primary is-link is-light">Annuler</button>
                                 </div>
                             </div>
+                            
+                        
         </form>
+        <script src="https://kit.fontawesome.com/006f782adc.js" crossorigin="anonymous"></script>
+       
+         
+        <!-- <script>
+
+            let anForm = document.getElementById('anForm');
+        
+
+            anForm.addEventListener('submit', function(e){
+              let anInput = document.getElementById('username');
+              let anRegex = /^[a-zA-Z-\s]+$/;
+
+              if (anInput.value.trim() == ""){
+                let anError = document.getElementById('error');
+                anError.innerHTML = "Le champ nom est requis.";
+                anError.style.color  = 'red';
+                 e.preventDefault()
+              }else if (anRegex.test(anInput.value) == false) {
+                let anError = document.getElementById('error');
+                anError.innerHTML = "Le nom doit comporter des lettres, des tirets uniquement";
+                anerror.style.color ='red';
+                 e.preventDefault();
+              }
+            });
+        </script> -->
 
 </body>
 </html>
